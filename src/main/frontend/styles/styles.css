@@ -1,0 +1,54 @@
+/* styles.css */
+.homepage {
+    text-align: center;
+    padding: 20px;
+}
+
+.homepage h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.homepage p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.chat-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9d00ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.chat-page {
+    padding: 20px;
+}
+
+.chat-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chat-bot-image {
+    width: 50px;
+    height: 50px;
+}
+
+.chat-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat-response {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%;
+    margin-top: 10px;
+    height: 300px;
+    overflow-y: scroll;
+}
